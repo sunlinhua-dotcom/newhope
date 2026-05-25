@@ -1,0 +1,35 @@
+# 原始客户/业务数据(绝不上传)
+*.xlsx
+*.xlsm
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS 元数据
+.DS_Store
+._*
+
+# 原始明文 HTML(只推加密版)
+proposal/index.html
+proposal/proposal.html
+proposal.html
+
+# 数据构建脚本(含硬编码敏感信息)
+proposal/build_db.py
+
+# 加密构建脚本(不必公开)
+proposal/protect.py
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 工具结果
+proposal/.tool-results/
+
+# IDE
+.vscode/
+.idea/
