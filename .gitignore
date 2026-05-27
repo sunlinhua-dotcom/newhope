@@ -16,6 +16,10 @@ proposal/index.html
 proposal/proposal.html
 proposal.html
 
+# PDF 含定价信息,只本地保存
+proposal.pdf
+proposal/*.pdf
+
 # 数据构建脚本(含硬编码敏感信息)
 proposal/build_db.py
 
